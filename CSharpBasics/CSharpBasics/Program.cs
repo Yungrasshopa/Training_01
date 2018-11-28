@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSharpBasics
 {
@@ -7,6 +8,67 @@ namespace CSharpBasics
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            // Local Variables and Types
+            int x = 0;
+            double y = 4.58; // 64-bit  float
+            decimal z = 5.001m; // Even more precision
+
+            string s = "string";
+            bool b = true;
+            b = false;
+
+            // Base class of everything is object
+            //  This can be any of these
+            object o = s;
+
+            // var type; compiler type inference.
+            //  Determines type if possible
+            var xyz = "Hello"; // var resolves to string here.
+            var b1 = true; // resolves to bool
+            // xyz = false; // error since xyz resolved to string. Cannot change
+
+            // Control structures
+            // for loops
+            for(int i = 0; i < 10; ++i)
+            {
+                Console.WriteLine(i);
+            }
+
+            // while
+            while(false)
+            {
+
+            }
+
+            // do while
+            do
+            {
+
+            } while (false);
+
+            // if / else
+            if(true)
+            {
+
+            }
+            else if(true)
+            {
+
+            }
+            else
+            {
+
+            }
+
+            List<string> list = new List<string>();
+            list.Add("One");
+            list.Add("Two");
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
