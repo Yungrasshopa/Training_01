@@ -61,6 +61,7 @@ namespace CSharpBasics
 
             }
 
+            // foreach
             List<string> list = new List<string>();
             list.Add("One");
             list.Add("Two");
@@ -69,6 +70,35 @@ namespace CSharpBasics
             {
                 Console.WriteLine(item);
             }
+
+            // Object oriented
+            //   We have objects that associate data and 
+            //    related behavior to represent "entities" / nouns (instances)
+            //    create those objects from templates called classes
+            //    which define a contrace for those objects at runtime
+
+            // Part of the .NET platform
+
+            // Strongly typed (statically typed)
+            // statically typed means, variables are locked
+            //  to a certain type at comiple time
+
+            // Unified type system
+            //  Primitives (types with value semantics instead of reference semantics)
+            //   also inherit from object.
+
+            // Garbage collection based language
+            //  "managed" language; memory is managed for youf
+            // The run-time is responsible for freeing unused objects 
+            //  from memory. This saves development time, fewer bugs
+            //  at the cost of some preformance penalty.
+
+            // CSharp is somewhat functional. Not quite first-class 
+            // LINQ ( Language-Integraded Query Language)
+
+            //  Asynchronoous programming support with TPL (Task Processing Library)
+
+            // There is also exception handling.
         }
     }
 }
