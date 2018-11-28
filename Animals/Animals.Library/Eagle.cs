@@ -4,7 +4,7 @@ namespace Animals.Library
 {
     // Can only derive from one class but can
     //  have multiple interfaces
-    public class Eagle : ABird, IAnimal
+    public class Eagle : ABird
     {
         public override string Name 
         { 

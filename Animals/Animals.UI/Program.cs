@@ -43,14 +43,13 @@ namespace Animals.UI
             //  correctly casted type.
             Eagle e = (Eagle)animal;
             e.Fly();
-            
+
             // Superclass = base class = parent class
             // subclass = derived class = child class
 
 
             DisplayName(new Dog());
-            DisplayName(new Eagle());
-
+            DisplayName(new Eagle());   
 
         }
         public static void DisplayName(IAnimal animal)
